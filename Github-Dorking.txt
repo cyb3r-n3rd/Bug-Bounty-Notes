@@ -31,6 +31,10 @@ Kindly check the user/pwd is associated with the company
 if you dont find any information on the company findthe employees github repo may be it will have senstive information
 user:cyb3r_n3rd credentials => finding info using users github 
 
+"http://Target.com" language:js password
+"Target.com" language:js password => https://twitter.com/0xmahmoudJo0/status/1363971315305185285  { Yaha ce aya hai}
+
+
 GitHub dorks for Docker secret enumeration:
 
 DOCKER-REGISTRY=
