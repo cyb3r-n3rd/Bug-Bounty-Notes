@@ -1,0 +1,56 @@
+https://www.zoomeye.org/ => Shodhan jesa chinese website
+
+ipadrehab / ifixit => top repair iphone
+https://github.com/arkadiyt/bounty-targets-data/blob/master/data/domains.txt
+Source Code Disclosure:
+1: site:xyz.com index.of.backup
+2: Search for any Parameter in Burpsuite(Ex. File=) Then Intruder => Payload => dicc.txt
+
+FoxyProxy: Extension to change proxy in browser for burpsuite
+Mailinator: yopmail jesa chutyap
+
+http://www.securitytube.net // Videos all attacks 
+https://www.amanhardikar.com/mindmaps/Practice.html //Ethical Hacking Map kha se kia padhna hai
+https://backdoor.sdslabs.co/ // Ctf Site
+http://pwnable.kr/ // ethical hacking game Mario
+https://recon.cx/ // Ctf hai dekh lio
+https://payatu.com/ // isi ce related hai
+https://tryhackme.com/room/owasptop10 //ctfs
+
+To Browse Admiin panel - haviz admin panel, robot.txt(File Contain Admin Details)works only on Linux based Systems
+Securityheaders.com: CHeck for missing headers on a website
+ssllabs.com // View a website headers
+HTTrack - Download ScreenShot of any website
+
+Radar Works On The Doplers effect - Defcon 2019 Hakc the police - Bill Swearingen
+
+When exploiting Something Use for Short => export ip=10.10.10.10 => ping $ip // it will ping the ip now use $ip in place of 10.10.10.10 no need to write this again n again
+
+we will use a character bypass called "Poison Null Byte". A Poison Null Byte looks like this: %00. Note that we can download it using the url, so we will encode this into a url encoded format.
+The Poison Null Byte will now look like this: %2500. Adding this and then a .md will bypass the 403 error!
+How does this work? // www.xyz.com.xml => pdf is not allowed then => www.xyz.com.xml%2500.pdf => down the pdf
+
+
+jwt.io =>to decode encoded jason web tokens // https://jwt.io/#debugger-io Check this out
+cyberchef => to cook decoding algorithms // icyberchef.org
+
+3306 => Port of MySql DataBase // If Searching For Database Search For this Port
+
+https://academo.org/demos/spectrum-analyzer   => audio spectrum analyzer
+https://morsecode.world/international/decoder/audio-decoder-adaptive.html => Online Morse Code audio Decoder
+Sonic Visualizer => Kali tool to view audio
+zsteg is to png's what steghide is to jpg's. => gem install zsteg
+Exiftool is a tool that allows you to view and edit image metadata. => sudo apt install exiftool
+www.futureboy.us/stegano/decinput.html => Steghide Alternative
+www.stegonline => for online stegonography or strings output
+
+https://www.aldeid.com/wiki/TryHackMe-Advent-of-Cyber/13-Accumulate // Windows Exploitation
+
+https://www.rapidtables.com/web/html/html-codes.html => HTML Charset
+
+https://www.irongeek.com/homoglyph-attack-generator.php => Find Homograph Here
+
+https://emkei.cz/ => Fake mail generator
+https://www.kitterman.com/spf/getspf3.py => Check for SPF Records
+
+https://cyknox.in/blog/so-you-wanna-create-a-room-on-tryhackme.html => tryhackme room Creation

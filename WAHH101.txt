@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------__Hacker's Handbook Notes___------------------------------------------
+
+xss through error messasge [reflected XSS]
+
+http://mdsec.net/error/5/Error.ashx?message=Sorry%2c+an+error+occured
+
+
+http://mdsec.net/error/5/Error.ashx?message=<script>alert(1)</script>  => popup appears 
+
+if not it is a browser based extension for avoiding reflected xss Disable it by ==Tools -Internet Options - Security - Custom Level Under Enabke Xss Selecet Disable

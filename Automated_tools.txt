@@ -1,0 +1,53 @@
+---------------------------------Automated Tools------------------------------
+
+knox => extension for finding xss(mozilla)
+
+https://github.com/S3cur3Th1sSh1t/Pentest-Tools => list of all pentest tools
+
+https://dhiyaneshgeek.github.io/bug/bounty/2020/02/06/recon-with-me/ => Step by Step Guide for tools installation
+
+https://github.com/projectdiscovery/subfinder => Subdomian Finder
+
+https://github.com/tomnomnom/qsreplace => extract url and add Params
+
+https://github.com/projectdiscovery/httpx => It shows every subdomain response via 200,400,300
+
+https://github.com/tomnomnom/waybackurls
+
+https://golang.org/doc/install => go lang install
+
+https://github.com/techgaun/github-dorks => github dorking
+
+https://github.com/techgaun/github-dorks => automate github dorks
+
+https://github.com/RenwaX23/XSSTRON => it installs in background on browsing web pages it automatically Popup's the Xss with payloads
+
+https://github.com/davidtavarez/pwndb => Tool used to find Data Breah using Email
+
+https://github.com/evilsocket/ditto => Homograph Attack Automate
+
+SUBFINDER => subfinder -d google.com => to inc subfinder search use api keys where to find them login below
+https://app.binaryedge.io/login?alert=confirm
+
+https://github.com/RenwaX23/XSSTRON => browser based XSS
+
+go get -u github.com/tomnomnom/anew => fetches new files added to the subdomains you have peviously searched
+
+https://danielmiessler.com/study/ffuf/ => all about FFUF
+
+
+A quick one-liner that will gather + crawl all subdomains, then convert to a custom wordlist unique to that organisation based on discovered URLs!
+
+subfinder -d bugcrowd[.]com -silent | httpx -silent | hakrawler -plain | tr "[:punct:]" "\n" | sort -u
+
+
+
+------------------------------------------------------SSRF-----------------------------------
+https://www.kitploit.com/2021/02/ssrfuzz-tool-to-find-server-side.html
+
+-------------------------------------------------------------------------
+
+Tools used in BASHREC
+
+
+https://github.com/Findomain/Findomain/blob/master/docs/INSTALLATION.md#installation-in-linux-using-compiled-artifacts => add api's in .config file 

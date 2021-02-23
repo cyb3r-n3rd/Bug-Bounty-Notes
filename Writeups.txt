@@ -1,0 +1,28 @@
+https://numbshiva.medium.com/application-takeover-via-password-reset-token-theft-3c295e3ba5a8 => token theft
+
+https://adityashende17.medium.com/hijacking-accounts-with-host-manipulation-using-collaborator-969f3234b29f
+
+https://bugcrowd.com/gojek
+
+https://bugcrowd.com/arlo
+
+https://numbshiva.medium.com/application-takeover-via-password-reset-token-theft-3c295e3ba5a8
+
+https://numbshiva.medium.com/xss-via-xml-value-processing-3341defd3520
+
+https://www.n00py.io/2020/12/alternative-ways-to-pass-the-hash-pth/
+
+https://v3d.medium.com/full-account-takeover-via-password-reset-flaw-my-first-blog-10d6e11df2e0 => reset pwd me email address show tha change kr dia 
+
+
+https://numbshiva.medium.com/application-takeover-via-password-reset-token-theft-3c295e3ba5a8 => token has been used to reset the password
+
+https://adityashende17.medium.com/hijacking-accounts-with-host-manipulation-using-collaborator-969f3234b29f => Burp Collaborator use krke reset token utha lia then account takeover
+
+https://medium.com/@tehmezovismayil/cookie-based-php-local-file-inclusion-bug-bounty-553f8b38d4dc => isne cookies me jha lang/en likha tha wha pe LFI use kia PayloadOfALLThings se Payload utahya Response me isko Base 64 mil gya usko decode kia to file content tha
+
+https://vbharad.medium.com/improper-access-control-vulnerability-in-prototype-1-6-0-1-framework-379cc3a05079 => isne ticket generate kri fir email change kr dia (improper access control)
+https://johnjhacking.com/blog/the-oscp-preperation-guide-2020/
+
+
+https://vbharad.medium.com/2-fa-bypass-via-csrf-attack-8f2f6a6e3871

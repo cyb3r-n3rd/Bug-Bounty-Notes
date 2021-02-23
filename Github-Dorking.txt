@@ -1,0 +1,74 @@
+Github Dorks 
+https://www.youtube.com/watch?v=l0YsEk_59fQ => Bugcrowd Video th3gentelmen
+https://github.com/Cyb3r-N3rd/TravisLeaks
+https://github.com/Cyb3r-N3rd/keywords
+https://github.com/michenriksen/gitrob =>
+https://github.com/Cyb3r-N3rd/keyhacks => it contain the keys that you need to search(Verify here your find keys)
+https://securitytrails.com/blog/github-dorks
+https://github.com/Cyb3r-N3rd/GitDorker
+https://github.com/internetwache/GitTools
+https://github.com/arthaud/git-dumper
+https://github.com/kost/dvcs-ripper
+https://github.com/Cyb3r-N3rd/keyhacks => Check api keys to find in Github dorks 
+https://github.com/TheBinitGhimire/GitHub-Recon => explanation to every dorks how to use where to use
+
+
+https://github.com/HACKE-RC/webdork => automated tool for dorking
+
+
+This Repo Contains Dorks for Github Searching 
+Use it like this
+"companyname" passwords => it will give you passwords in plain text if Present
+Sometimes 
+"companyname.com" password or use as needed    
+try to find a specific Service 
+"companyname.com" jdbc => it gives jaba database connection credentials
+"companyname.com" vsphere
+"companyname.com" language:python passwords => it will only gives you passwords in python scripts
+Sorting always help as in new code will give more possiblity that no one is reported that till now 
+Kindly check the user/pwd is associated with the company
+"companyname.com" language:python passwords NOT xyz.com => it will not show you xyz.com directory
+if you dont find any information on the company findthe employees github repo may be it will have senstive information
+user:cyb3r_n3rd credentials => finding info using users github 
+
+GitHub dorks for Docker secret enumeration:
+
+DOCKER-REGISTRY=
+DOCKER_POSTGRES_URL=
+DOCKER_RABBITMQ_HOST=
+docker_repo=
+DOCKER_TOKEN=
+
+You can also use some generic ones like "docker_key=" or "DOCKER_PASSWD="
+
+
+Google Hacking
+Uses advanced search operators (Google Dorks) to find juicy information about target websites
+site:acer.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv => Publically Exposed Documents
+
+site:acer.com intitle:index.of => Directory Listing vulnerabilities
+
+site:acer.com ext:sql | ext:dbf | ext:mdb =>Database Files Expsoed
+
+site:acer.com ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup => backup and old files
+
+site:acer.com ext:php intitle:phpinfo "published by the PHP Group" =>it dorks the phpinfo()
+
+site:acer.com intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()" => SQL Error
+
+site:acer.com "PHP Parse error" | "PHP Warning" | "PHP Error" => phperror
+
+site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org  | site:codeshare.io | site:trello.com "acer.com" => Search Pastebin Sites
+
+
+site:acer.com inurl:signup | inurl:register | intitle:Signup => Search SignupPages
+
+site:stackoverflow.com "acer.com" => Search StackOverFlow.com
+
+inurl:acer inurl:login | inurl:signin | intitle:Login | intitle:"sign in" | inurl:auth => login Page for Acer
+
+site:github.com | site:gitlab.com "acer.com" => github & gitlab
+
+site:acer.com ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini | ext:env => Configuration files Exposed
+
+https://pentest-tools.com/information-gathering/google-hacking# -> References

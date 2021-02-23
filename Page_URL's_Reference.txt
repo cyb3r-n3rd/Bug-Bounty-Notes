@@ -1,0 +1,101 @@
+WAF Bypass => XSS => Flash = STOK h123 video
+SICARIO - movie
+https://twitter.com/Avinashkroy/status/1312276414104694784 
+
+https://security.stackexchange.com/questions/229928/x-original-url-and-x-rewrite-url-related-vulnerabilities
+
+https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema
+
+2nd
+
+https://medium.com/@Asm0d3us/weaponizing-live-ct-logs-for-automated-monitoring-of-assets-39c6973177c7
+
+https://www.certificate-transparency.org/what-is-ct
+
+3rd
+https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139
+
+https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139
+
+4rth
+https://blog.shashank.co/2020/11/from-500-error-to-django-admin-takeover.html
+
+5th
+https://twitter.com/hunter0x7/status/1321149883764645891
+
+https://twitter.com/hunter0x7/status/1312110348841840640
+
+https://access.redhat.com/articles/1232123
+
+
+Learn About 
+
+Firewall And how it work Protocols USed then 7 layer protocols Server Side Firewall & Mitigation
+XXE = https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
+XML = https://www.acunetix.com/blog/articles/band-xml-external-entity-oob-xxe/ 
+xss without HTML = https://portswigger.net/research/xss-without-html-client-side-template-injection-with-angularjs
+
+
+https://www.youtube.com/watch?v=LZUlw8hHp44 => XXE exploitation Blackhat Talk
+
+https://www.amazon.in/gp/product/B073M78H5T/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=fittub-21&creative=24630&linkCode=as2&creativeASIN=B073M78H5T&linkId=6830e12f9eab7bf5fba749edd7761ff4
+https://www.amazon.in/gp/product/B07D7RKR2P/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=fittub-21&creative=24630&linkCode=as2&creativeASIN=B07D7RKR2P&linkId=5ae1af09eba7047e5fd9bf663e98b4f1
+
+https://www.hackingarticles.in/android-pentest-lab-setup-adb-command-cheatsheet/
+
+Subdomain Takeovers
+
+https://www.youtube.com/watch?v=G2pWVBgCjvg => Javascript enumeration
+
+https://sudhanshur705.medium.com/how-recon-helped-me-to-to-find-a-facebook-domain-takeover-58163de0e7d5
+https://shahjerry33.medium.com/recon-my-way-or-high-way-58a18dab5c95
+
+
+2
+
+https://www.youtube.com/watch?v=6vj96QetfTg => How the Best Hackers Learn Their Craft
+
+https://www.youtube.com/watch?v=iLFkxAmwXF0 =>  How to Master FFUF for Bug Bounties and Pen Testing
+
+https://www.youtube.com/watch?v=BZTvfqn2NMQ = > Most Popular Burp Extensions Explained: Request Smuggler, Logger++ and others #burpsuite #hacking
+
+https://www.youtube.com/watch?v=Y1S5s3FmFsI => Improve Your Hacking Skills Using Devtools | Bug Bounty Tips
+
+https://gosecure.github.io/template-injection-workshop/#0 => SSTI Attack 2hr workshop
+
+https://github.com/k0fin/scylla => cylla osint
+https://github.com/scylladb/scylla/blob/master/dist/common/dep/scylla-env-1.0/profile.d/scylla.sh
+
+https://medium.com/bugbountywriteup/how-i-exploit-the-json-csrf-with-method-override-technique-71c0a9a7f3b0
+https://medium.com/redteam/weaponising-staged-cross-site-scripting-xss-payloads-7b917f605800
+
+https://www.youtube.com/watch?v=Xm77r80NxZo => RCE with Burp + Regex
+https://portswigger.net/web-security/clickjacking 
+https://zonduu.me/posts/http-smuggling-writeup
+
+https://www.youtube.com/watch?v=CNNCCgDkt5k => Finding DOMXSS with DevTools | Untrusted Types Chrome Extension
+
+https://www.youtube.com/watch?v=fUc08JAaslE&feature=evil.com => SSRF - What Why & How | SSRF in Google Production Network | Server Side Request Forgery
+
+https://medium.com/bugbountywriteup/automating-xss-using-dalfox-gf-and-waybackurls-bc6de16a5c75 
+
+https://www.youtube.com/watch?v=3K1-a7dnA60&ab_channel=ST%C3%96K => Burp Autorize IDOR Automation
+
+https://github.com/EdOverflow/can-i-take-over-xyz => Subdomain takeover
+
+https://www.youtube.com/watch?v=o-tL9ULF0KI => SSRF(Ben Sadeghipour - Owning The Clout Through Server Side Request Forgery - DEF CON 27 Conference
+)
+
+https://www.google.com/search?biw=1536&bih=760&ei=IhvWX9ipLMWDmgeO7pOYBA&q=responsible+disclosure+inurl%3A%24%24.it&oq=responsible+disclosure+inurl%3A%24%24.it&gs_lcp=CgZwc3ktYWIQA1C44wFYoOUBYODqAWgAcAB4AIABxQGIAZoEkgEDMC4zmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjYwrr8i8vtAhXFgeYKHQ73BEMQ4dUDCA0&uact=5 => Responsible disclosure google
+
+https://portswigger.net/web-security/websockets => Websockets Bugcrowd
+
+https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMstJLzZg9OJNzs8rSUwuUcjNL8tMBQBn2whx&q=contact+movie&oq=contact+m&aqs=chrome.1.69i57j46i131i433j0j0i433j0j69i60l3.5224j0j7&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?gs_ssp=eJzj4tFP1zcsNMuoNDfLqzJg9GIrK04sTU4FAEyhBvI&q=vsauce&oq=vsa&aqs=chrome.4.69i57j0i433i457j0j0i433j46i433j0l2j46i175i199.4000j0j7&sourceid=chrome&ie=UTF-8
+
+
+https://cyb3rn3rd.atlassian.net/wiki/spaces/CYB3RN3RD/pages/edit-v2/32973 => Notes
+https://medium.com/@valeriyshevchenko/10-000-for-a-vulnerability-that-doesnt-exist-9dbc63684e94
+https://reconshell.com/insecure-deserialization-with-json/
+https://niemand.com.ar/2021/01/08/exploiting-application-level-profile-semantics-apls-from-spring-data-rest/
+https://www.darabi.me/2020/12/create-invisible-post-on-any-facebook.html

