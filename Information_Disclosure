@@ -1,0 +1,5 @@
+1. site:.s3.amazonaws.com | site:http://storage.googleapis.com | site:http://amazonaws.com "target"
+
+2. site:http://justpaste.it | site:http://heypasteit.com | site:http://pastebin.com "target"
+
+3. site:http://linkedin.com employees http://target.com
